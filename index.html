@@ -1,36 +1,134 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
-  <title>大学課題管理</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Houston Astros Fan App</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <h1>大学課題管理</h1>
+  <header>
+    <h1>HOUSTON ASTROS</h1>
+    <p>Houston Astros Fan App</p>
+  </header>
 
-  <div class="task">
-    <h2>ソフトウェアクリエイション</h2>
-    <p>レポート課題</p>
-    <p>提出期限：10/5</p>
-    <p>未提出</p>
-  </div>
+  <nav>
+    <a href="#players">選手一覧</a>
+    <a href="#team">チーム情報</a>
+    <a href="#record">チーム成績</a>
+    <a href="#games">試合結果</a>
+    <a href="#ranking">個人成績</a>
+    <a href="#stars">歴代スター</a>
+    <a href="#young">注目の若手</a>
+    <a href="#news">ニュース</a>
+    <a href="#favorite">お気に入り</a>
+  </nav>
 
-  <div class="task">
-    <h2>数学</h2>
-    <p>演習問題5-2</p>
-    <p>提出期限：10/10</p>
-    <p>未提出</p>
-  </div>
+  <main>
 
-  <div class="task">
-    <h2>英語</h2>
-    <p>英作文レポート</p>
-    <p>提出済み</p>
-  </div>
+    <section id="team">
+      <h2>⚾ チーム情報</h2>
+      <div class="card">
+        <h3>Houston Astros</h3>
+        <p>本拠地：Daikin Park</p>
+        <p>所属：アメリカンリーグ 西地区</p>
+        <p>チームの歴史や優勝歴などを紹介します。</p>
+      </div>
+    </section>
 
-  <button>＋ 課題を追加</button>
+    <section id="record">
+      <h2>📊 今シーズンのチーム成績</h2>
+      <div class="card">
+        <p>勝敗：-- 勝 -- 敗</p>
+        <p>勝率：---</p>
+        <p>地区順位：-- 位</p>
+      </div>
+    </section>
+
+    <section id="games">
+      <h2>🏟️ 直近の試合結果</h2>
+      <div class="card">
+        <p>Astros　-　対戦チーム</p>
+        <p>試合結果をここに表示します。</p>
+      </div>
+    </section>
+
+    <section id="players">
+      <h2>👤 選手一覧</h2>
+
+      <div class="player-container">
+        <div class="player-card">
+          <h3>選手名</h3>
+          <p>ポジション：---</p>
+          <p>背番号：--</p>
+          <button>☆ お気に入り</button>
+        </div>
+
+        <div class="player-card">
+          <h3>選手名</h3>
+          <p>ポジション：---</p>
+          <p>背番号：--</p>
+          <button>☆ お気に入り</button>
+        </div>
+
+        <div class="player-card">
+          <h3>選手名</h3>
+          <p>ポジション：---</p>
+          <p>背番号：--</p>
+          <button>☆ お気に入り</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="ranking">
+      <h2>🏆 個人成績ランキング</h2>
+      <div class="card">
+        <h3>本塁打ランキング</h3>
+        <p>1位　---</p>
+        <p>2位　---</p>
+        <p>3位　---</p>
+      </div>
+    </section>
+
+    <section id="young">
+      <h2>🌟 注目の若手</h2>
+      <div class="card">
+        <h3>注目選手</h3>
+        <p>期待の若手選手を紹介します。</p>
+      </div>
+    </section>
+
+    <section id="stars">
+      <h2>⭐ 歴代スター選手</h2>
+      <div class="card">
+        <p>アストロズで活躍した歴代のスター選手を紹介します。</p>
+      </div>
+    </section>
+
+    <section id="news">
+      <h2>📰 ニュース</h2>
+      <div class="card">
+        <h3>Astros News</h3>
+        <p>アストロズに関するニュースを表示します。</p>
+      </div>
+    </section>
+
+    <section id="favorite">
+      <h2>❤️ お気に入り選手</h2>
+      <div class="card">
+        <p>お気に入り登録した選手がここに表示されます。</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Houston Astros Fan App</p>
+  </footer>
 
 </body>
+
 </html>
