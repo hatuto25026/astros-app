@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>選手一覧 | Astros Fan Community</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <div class="wrap">
+      <h1>👤 選手一覧</h1>
+      <p>Astros選手名鑑・お気に入り登録</p>
+    </div>
+  </header>
+
+  <!-- ナビゲーション -->
+  <nav>
+    <div class="wrap nav">
+      <a href="index.html">ホーム</a>
+      <a href="players.html">選手一覧</a>
+      <a href="comparison.html">選手比較</a>
+      <a href="team.html">チーム情報</a>
+    </div>
+  </nav>
+
+  <!-- メインコンテンツ -->
+  <main class="wrap">
+
+    <p class="notice">
+      選手情報はplayers.jsonのサンプルデータです。
+      自動更新・最新名簿との照合はまだ行っていません。
+    </p>
+
+    <!-- 選手名鑑 -->
+    <section>
+      <h2>選手名鑑</h2>
+
+      <!-- 選手名検索 -->
+      <div class="panel">
+        <label for="player-search">🔍 選手名で検索</label>
+
+        <input
+          type="search"
+          id="player-search"
+          placeholder="例：Altuve、Brown、Peña"
+        >
+
+        <p id="search-count"></p>
+      </div>
+
+      <!-- 選手一覧の表示場所 -->
+      <div id="roster">
+        読み込み中...
+      </div>
+
+    </section>
+
+    <!-- お気に入り選手 -->
+    <section class="panel">
+      <h2>❤️ お気に入り選手</h2>
+
+      <ul id="favorite-list"></ul>
+
+      <p id="favorite-empty">
+        まだ登録されていません。
+      </p>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <div class="wrap">
+      非公式・大学制作課題用ファンサイト
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="players.js"></script>
+
+</body>
+
+</html>

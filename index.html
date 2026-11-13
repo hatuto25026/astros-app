@@ -1,132 +1,160 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Houston Astros Fan App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Astros Fan Community</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <!-- ヘッダー -->
   <header>
-    <h1>HOUSTON ASTROS</h1>
-    <p>Houston Astros Fan App</p>
+      <p class="eyebrow">UNOFFICIAL JAPANESE FAN COMMUNITY</p>
+      <h1>ASTROS FAN COMMUNITY</h1>
+      <p>ヒューストン・アストロズを、もっと一緒に楽しもう。</p>
+    </div>
   </header>
 
+  <!-- ナビゲーションメニュー -->
   <nav>
-    <a href="#players">選手一覧</a>
-    <a href="#team">チーム情報</a>
-    <a href="#record">チーム成績</a>
-    <a href="#games">試合結果</a>
-    <a href="#ranking">個人成績</a>
-    <a href="#stars">歴代スター</a>
-    <a href="#young">注目の若手</a>
-    <a href="#news">ニュース</a>
-    <a href="#favorite">お気に入り</a>
+    <div class="wrap nav">
+      <a href="index.html">ホーム</a>
+      <a href="board.html">ファン掲示板</a>
+      <a href="talk.html">試合トーク</a>
+      <a href="poll.html">ファン投票</a>
+      <a href="prediction.html">試合予想</a>
+      <a href="players.html">選手一覧</a>
+      <a href="comparison.html">選手比較</a>
+      <a href="team.html">チーム情報</a>
+    </div>
   </nav>
 
-  <main>
+  <!-- メインコンテンツ -->
+  <main class="wrap">
 
-    <section id="team">
-      <h2>⚾ チーム情報</h2>
-      <div class="card">
-        <h3>Houston Astros</h3>
-        <p>本拠地：Daikin Park</p>
-        <p>所属：アメリカンリーグ 西地区</p>
-        <p>チームの歴史や優勝歴などを紹介します。</p>
+    <!-- サイト紹介 -->
+    <section class="hero">
+      <span class="tag">ファンが主役のWebアプリ</span>
+
+      <h2>好きなチームの話を、もっと気軽に。</h2>
+
+      <p>
+        日本にいるAstrosファンが、
+        試合の感想や選手への思いを共有できる場所を目指しています。
+      </p>
+
+      <p class="notice">
+        現在はブラウザ内で動く試作版です。
+        投稿や投票は他の利用者には共有されません。
+      </p>
+    </section>
+
+    <!-- ファン交流機能 -->
+    <section>
+      <h2>交流を楽しむ</h2>
+
+      <div class="cards">
+
+        <!-- ファン掲示板 -->
+        <a class="card" href="board.html">
+          <span class="emoji">💬</span>
+          <h3>ファン掲示板</h3>
+          <p>
+            選手やチームについて自由に投稿。
+            返信もできます。
+          </p>
+          <span class="more">掲示板を開く →</span>
+        </a>
+
+        <!-- 試合トーク -->
+        <a class="card" href="talk.html">
+          <span class="emoji">⚾</span>
+          <h3>試合トーク</h3>
+          <p>
+            試合ごとの感想や応援コメントを記録。
+          </p>
+          <span class="more">トークを開く →</span>
+        </a>
+
+        <!-- ファン投票 -->
+        <a class="card" href="poll.html">
+          <span class="emoji">📊</span>
+          <h3>ファン投票</h3>
+          <p>
+            注目選手への投票を体験できます。
+          </p>
+          <span class="more">投票する →</span>
+        </a>
+
+        <!-- 試合結果予想 -->
+        <a class="card" href="prediction.html">
+          <span class="emoji">🏆</span>
+          <h3>試合結果予想</h3>
+          <p>
+            勝敗とスコアを予想して保存。
+          </p>
+          <span class="more">予想する →</span>
+        </a>
+
       </div>
     </section>
 
-    <section id="record">
-      <h2>📊 今シーズンのチーム成績</h2>
-      <div class="card">
-        <p>勝敗：-- 勝 -- 敗</p>
-        <p>勝率：---</p>
-        <p>地区順位：-- 位</p>
-      </div>
-    </section>
+    <!-- チーム・選手情報 -->
+    <section>
+      <h2>Astrosをもっと知る</h2>
 
-    <section id="games">
-      <h2>🏟️ 直近の試合結果</h2>
-      <div class="card">
-        <p>Astros　-　対戦チーム</p>
-        <p>試合結果をここに表示します。</p>
-      </div>
-    </section>
+      <div class="cards">
 
-    <section id="players">
-      <h2>👤 選手一覧</h2>
+        <!-- 選手一覧 -->
+        <a class="card" href="players.html">
+          <h3>選手一覧・お気に入り</h3>
+          <p>
+            選手データを見て、
+            好きな選手を登録。
+          </p>
+          <span class="more">選手を見る →</span>
+        </a>
 
-      <div class="player-container">
-        <div class="player-card">
-          <h3>選手名</h3>
-          <p>ポジション：---</p>
-          <p>背番号：--</p>
-          <button>☆ お気に入り</button>
-        </div>
+        <!-- 選手比較 -->
+        <a class="card" href="comparison.html">
+          <h3>選手比較</h3>
+          <p>
+            2人の選手を並べて
+            基本情報を比較。
+          </p>
+          <span class="more">比較する →</span>
+        </a>
 
-        <div class="player-card">
-          <h3>選手名</h3>
-          <p>ポジション：---</p>
-          <p>背番号：--</p>
-          <button>☆ お気に入り</button>
-        </div>
+        <!-- チーム情報 -->
+        <a class="card" href="team.html">
+          <h3>チーム情報</h3>
+          <p>
+            歴史、本拠地、優勝歴などを紹介。
+          </p>
+          <span class="more">詳しく見る →</span>
+        </a>
 
-        <div class="player-card">
-          <h3>選手名</h3>
-          <p>ポジション：---</p>
-          <p>背番号：--</p>
-          <button>☆ お気に入り</button>
-        </div>
-      </div>
-    </section>
-
-    <section id="ranking">
-      <h2>🏆 個人成績ランキング</h2>
-      <div class="card">
-        <h3>本塁打ランキング</h3>
-        <p>1位　---</p>
-        <p>2位　---</p>
-        <p>3位　---</p>
-      </div>
-    </section>
-
-    <section id="young">
-      <h2>🌟 注目の若手</h2>
-      <div class="card">
-        <h3>注目選手</h3>
-        <p>期待の若手選手を紹介します。</p>
-      </div>
-    </section>
-
-    <section id="stars">
-      <h2>⭐ 歴代スター選手</h2>
-      <div class="card">
-        <p>アストロズで活躍した歴代のスター選手を紹介します。</p>
-      </div>
-    </section>
-
-    <section id="news">
-      <h2>📰 ニュース</h2>
-      <div class="card">
-        <h3>Astros News</h3>
-        <p>アストロズに関するニュースを表示します。</p>
-      </div>
-    </section>
-
-    <section id="favorite">
-      <h2>❤️ お気に入り選手</h2>
-      <div class="card">
-        <p>お気に入り登録した選手がここに表示されます。</p>
       </div>
     </section>
 
   </main>
 
+  <!-- フッター -->
   <footer>
-    <p>Houston Astros Fan App</p>
+    <div class="wrap">
+      <p>
+        非公式・大学制作課題用ファンサイト。
+        MLBおよびHouston Astrosとは提携していません。
+      </p>
+
+      <p>
+        投稿内容は現在、このブラウザ内にのみ保存されます。
+      </p>
+    </div>
   </footer>
 
 </body>

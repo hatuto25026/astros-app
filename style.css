@@ -1,96 +1,389 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #222;
+
+/* =========================
+   基本カラー設定
+========================= */
+
+:root {
+  --navy: #002d62;
+  --orange: #eb6e1f;
+  --bg: #f3f5f8;
+  --text: #182536;
+  --muted: #5c6877;
 }
 
+/* =========================
+   ページ全体
+========================= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Hiragino Kaku Gothic ProN",
+    Meiryo,
+    sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.wrap {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* =========================
+   ヘッダー
+========================= */
+
 header {
-  background-color: #002d62;
+  background: var(--navy);
   color: white;
-  text-align: center;
-  padding: 35px;
+  padding: 38px 0;
 }
 
 header h1 {
+  font-size: clamp(27px, 5vw, 44px);
   margin: 0;
-  font-size: 40px;
+  letter-spacing: 0.04em;
 }
 
 header p {
-  margin-top: 10px;
+  margin: 4px 0;
 }
+
+.eyebrow {
+  color: #ffb57d;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+/* =========================
+   ナビゲーション
+========================= */
 
 nav {
-  background-color: #eb6e1f;
-  text-align: center;
-  padding: 15px;
+  background: var(--orange);
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-main {
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 40px;
-}
-
-h2 {
-  border-bottom: 3px solid #eb6e1f;
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding-top: 8px;
   padding-bottom: 8px;
 }
 
-.card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.player-container {
-  display: flex;
-  gap: 20px;
-}
-
-.player-card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  flex: 1;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-button {
-  background-color: #eb6e1f;
+.nav a {
   color: white;
-  border: none;
-  padding: 10px 15px;
+  text-decoration: none;
+  padding: 9px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.nav a:hover,
+.nav a:focus-visible {
+  background: #bf5010;
+}
+
+/* =========================
+   メインコンテンツ
+========================= */
+
+main {
+  padding-top: 28px !important;
+  padding-bottom: 56px !important;
+}
+
+section {
+  margin-bottom: 36px;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 3px solid var(--orange);
+  padding-bottom: 9px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+/* =========================
+   トップページ
+========================= */
+
+.hero {
+  background: white;
+  border-radius: 14px;
+  padding: 28px;
+  box-shadow: 0 3px 15px #002d6210;
+}
+
+.hero h2 {
+  border: 0;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.tag {
+  display: inline-block;
+  background: #fff0e4;
+  color: #a9480c;
+  border-radius: 30px;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.notice {
+  background: #f0f5ff;
+  border-left: 4px solid var(--navy);
+  padding: 12px;
   border-radius: 5px;
+  font-size: 14px;
+}
+
+/* =========================
+   カード表示
+========================= */
+
+.cards,
+.player-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.card,
+.player-card,
+.panel {
+  background: white;
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 3px 14px #002d6212;
+}
+
+.card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  box-shadow: 0 5px 20px #002d6228;
+}
+
+.card p {
+  color: var(--muted);
+}
+
+.emoji {
+  font-size: 26px;
+}
+
+.more {
+  color: #b44a0d;
+  font-weight: 700;
+}
+
+.panel {
+  margin-bottom: 20px;
+}
+
+/* =========================
+   フォーム
+========================= */
+
+label {
+  display: block;
+  font-weight: 700;
+  margin: 12px 0 4px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  border: 1px solid #bfc8d3;
+  border-radius: 7px;
+  padding: 11px;
+  font: inherit;
+  background: white;
+}
+
+textarea {
+  min-height: 95px;
+}
+
+/* =========================
+   ボタン
+========================= */
+
+button,
+.button {
+  background: var(--orange);
+  color: white;
+  border: 0;
+  border-radius: 7px;
+  padding: 10px 17px;
+  font: inherit;
+  font-weight: 700;
   cursor: pointer;
 }
 
 button:hover {
-  opacity: 0.8;
+  filter: brightness(0.9);
 }
 
-footer {
-  background-color: #002d62;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+button.secondary {
+  background: var(--navy);
 }
-/* Astros App */
+
+button.small {
+  font-size: 13px;
+  padding: 6px 10px;
+}
+
+/* =========================
+   掲示板・コメント
+========================= */
+
+.entry {
+  border-top: 1px solid #e3e8ef;
+  padding: 14px 0;
+  overflow-wrap: anywhere;
+}
+
+.entry:first-child {
+  border-top: 0;
+}
+
+.entry small,
+.muted {
+  color: var(--muted);
+}
+
+.reply {
+  margin: 8px 0 8px 20px;
+  border-left: 3px solid #f2ae78;
+  padding-left: 12px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+/* =========================
+   フォームの横並び
+========================= */
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* =========================
+   成績テーブル
+========================= */
+
+.stat-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stat-table th,
+.stat-table td {
+  border-bottom: 1px solid #e4e8ee;
+  padding: 12px;
+  text-align: left;
+}
+
+/* =========================
+   グラフ
+========================= */
+
+.bar {
+  height: 12px;
+  background: #e7ebf0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.bar span {
+  display: block;
+  height: 100%;
+  background: var(--orange);
+}
+
+/* =========================
+   選手名検索機能（追加）
+========================= */
+
+#player-search {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #bfc8d3;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#player-search:focus {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
+}
+
+#search-count {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* =========================
+   フッター
+========================= */
+
+footer {
+  background: var(--navy);
+  color: white;
+  padding: 22px 0;
+  font-size: 13px;
+}
+
+footer p {
+  margin: 3px 0;
+}
+
+/* =========================
+   スマートフォン対応
+========================= */
+
+@media (max-width: 750px) {
+
+  .cards,
+  .player-container {
+    grid-template-columns: 1fr;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 20px;
+  }
+
+}
