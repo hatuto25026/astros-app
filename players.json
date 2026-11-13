@@ -1,15 +1,76 @@
 {
-  "updatedAt": "sample-not-live",
+  "updatedAt": "2026-11-13",
+  "source": "TheSportsDB",
   "players": [
-    {"id":514888,"name":"Jose Altuve","number":27,"position":"二塁手","group":"内野手"},
-    {"id":670541,"name":"Yordan Alvarez","number":44,"position":"指名打者・外野手","group":"指名打者"},
-    {"id":665161,"name":"Jeremy Peña","number":3,"position":"遊撃手","group":"内野手"},
-    {"id":621043,"name":"Carlos Correa","number":1,"position":"内野手","group":"内野手"},
-    {"id":670623,"name":"Isaac Paredes","number":15,"position":"三塁手","group":"内野手"},
-    {"id":572233,"name":"Christian Walker","number":8,"position":"一塁手","group":"内野手"},
-    {"id":673237,"name":"Yainer Diaz","number":21,"position":"捕手","group":"捕手"},
-    {"id":686613,"name":"Hunter Brown","number":58,"position":"投手","group":"投手"},
-    {"id":623352,"name":"Josh Hader","number":71,"position":"投手","group":"投手"},
-    {"id":701358,"name":"Cam Smith","number":11,"position":"外野手","group":"外野手"}
+    {
+      "id": "34343787",
+      "name": "AJ Blubaugh",
+      "number": 69,
+      "position": "Pitcher",
+      "group": "投手"
+    },
+    {
+      "id": "34440000",
+      "name": "Alimber Santa",
+      "number": 72,
+      "position": "Relief Pitcher",
+      "group": "投手"
+    },
+    {
+      "id": "34202108",
+      "name": "Bennett Sousa",
+      "number": 62,
+      "position": "Pitcher",
+      "group": "投手"
+    },
+    {
+      "id": "34239621",
+      "name": "Brandon Walter",
+      "number": 60,
+      "position": "Pitcher",
+      "group": "投手"
+    },
+    {
+      "id": "34432447",
+      "name": "Brice Matthews",
+      "number": 28,
+      "position": "Infielder",
+      "group": "外野手"
+    },
+    {
+      "id": "34185501",
+      "name": "Bryan Abreu",
+      "number": 52,
+      "position": "Pitcher",
+      "group": "投手"
+    },
+    {
+      "id": "34420413",
+      "name": "Bryan King",
+      "number": 74,
+      "position": "Pitcher",
+      "group": "投手"
+    },
+    {
+      "id": "34343534",
+      "name": "Cam Smith",
+      "number": 11,
+      "position": "Right Fielder",
+      "group": "外野手"
+    },
+    {
+      "id": "34166044",
+      "name": "Carlos Correa",
+      "number": 1,
+      "position": "Shortstop",
+      "group": "内野手"
+    },
+    {
+      "id": "34172723",
+      "name": "Christian Walker",
+      "number": 8,
+      "position": "First Base",
+      "group": "内野手"
+    }
   ]
 }
