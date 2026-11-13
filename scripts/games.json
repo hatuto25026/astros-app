@@ -1,0 +1,22 @@
+
+{
+  "updatedAt": "sample-not-live",
+  "games": [
+    {
+      "date": "2026-11-01",
+      "opponent": "New York Yankees",
+      "homeAway": "home",
+      "status": "試合終了",
+      "astrosScore": 5,
+      "opponentScore": 3
+    },
+    {
+      "date": "2026-11-02",
+      "opponent": "Seattle Mariners",
+      "homeAway": "away",
+      "status": "試合前",
+      "astrosScore": null,
+      "opponentScore": null
+    }
+  ]
+}
