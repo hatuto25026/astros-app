@@ -1,22 +1,1698 @@
-
 {
-  "updatedAt": "sample-not-live",
+  "updatedAt": "2026-11-13T05:46:07.350339+00:00",
+  "source": "MLB Stats API",
   "games": [
     {
-      "date": "2026-11-01",
+      "id": 831579,
+      "date": "2026-03-01",
+      "opponent": "New York Mets",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 4
+    },
+    {
+      "id": 831529,
+      "date": "2026-03-02",
+      "opponent": "Washington Nationals",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 3
+    },
+    {
+      "id": 831440,
+      "date": "2026-03-03",
+      "opponent": "Venezuela",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 1
+    },
+    {
+      "id": 831642,
+      "date": "2026-03-04",
+      "opponent": "Baltimore Orioles",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 2
+    },
+    {
+      "id": 831582,
+      "date": "2026-03-05",
+      "opponent": "Miami Marlins",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 0,
+      "opponentScore": 2
+    },
+    {
+      "id": 831524,
+      "date": "2026-03-06",
+      "opponent": "Washington Nationals",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 1
+    },
+    {
+      "id": 831523,
+      "date": "2026-03-07",
+      "opponent": "Miami Marlins",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 4
+    },
+    {
+      "id": 831572,
+      "date": "2026-03-08",
+      "opponent": "Washington Nationals",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 3
+    },
+    {
+      "id": 831516,
+      "date": "2026-03-09",
+      "opponent": "St. Louis Cardinals",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 10,
+      "opponentScore": 3
+    },
+    {
+      "id": 831617,
+      "date": "2026-03-10",
+      "opponent": "Baltimore Orioles",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 6
+    },
+    {
+      "id": 831561,
+      "date": "2026-03-11",
+      "opponent": "Miami Marlins",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 1
+    },
+    {
+      "id": 831510,
+      "date": "2026-03-12",
+      "opponent": "Washington Nationals",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 3
+    },
+    {
+      "id": 831567,
+      "date": "2026-03-13",
+      "opponent": "St. Louis Cardinals",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 5
+    },
+    {
+      "id": 831508,
+      "date": "2026-03-14",
+      "opponent": "New York Mets",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 8,
+      "opponentScore": 2
+    },
+    {
+      "id": 831509,
+      "date": "2026-03-15",
+      "opponent": "Miami Marlins",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 0
+    },
+    {
+      "id": 831560,
+      "date": "2026-03-17",
+      "opponent": "Pittsburgh Pirates",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 10,
+      "opponentScore": 2
+    },
+    {
+      "id": 831556,
+      "date": "2026-03-18",
+      "opponent": "St. Louis Cardinals",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 4
+    },
+    {
+      "id": 831500,
+      "date": "2026-03-19",
+      "opponent": "New York Mets",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 6
+    },
+    {
+      "id": 831505,
+      "date": "2026-03-20",
+      "opponent": "Miami Marlins",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 7
+    },
+    {
+      "id": 831549,
+      "date": "2026-03-21",
+      "opponent": "New York Mets",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 5
+    },
+    {
+      "id": 831496,
+      "date": "2026-03-22",
+      "opponent": "St. Louis Cardinals",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 3
+    },
+    {
+      "id": 831443,
+      "date": "2026-03-24",
+      "opponent": "Sugar Land Space Cowboys",
+      "homeAway": "home",
+      "status": "Completed Early",
+      "astrosScore": 9,
+      "opponentScore": 1
+    },
+    {
+      "id": 831441,
+      "date": "2026-03-25",
+      "opponent": "Sugar Land Space Cowboys",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 5
+    },
+    {
+      "id": 824218,
+      "date": "2026-03-26",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 0,
+      "opponentScore": 3
+    },
+    {
+      "id": 824216,
+      "date": "2026-03-28",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 6
+    },
+    {
+      "id": 824213,
+      "date": "2026-03-28",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 11,
+      "opponentScore": 9
+    },
+    {
+      "id": 824215,
+      "date": "2026-03-29",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 9,
+      "opponentScore": 7
+    },
+    {
+      "id": 824214,
+      "date": "2026-03-31",
+      "opponent": "Boston Red Sox",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 8,
+      "opponentScore": 1
+    },
+    {
+      "id": 824212,
+      "date": "2026-04-01",
+      "opponent": "Boston Red Sox",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 9,
+      "opponentScore": 2
+    },
+    {
+      "id": 824211,
+      "date": "2026-04-01",
+      "opponent": "Boston Red Sox",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 4
+    },
+    {
+      "id": 825026,
+      "date": "2026-04-04",
+      "opponent": "Athletics",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 11
+    },
+    {
+      "id": 825027,
+      "date": "2026-04-04",
+      "opponent": "Athletics",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 11,
+      "opponentScore": 0
+    },
+    {
+      "id": 825025,
+      "date": "2026-04-05",
+      "opponent": "Athletics",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 10,
+      "opponentScore": 12
+    },
+    {
+      "id": 824376,
+      "date": "2026-04-07",
+      "opponent": "Colorado Rockies",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 9
+    },
+    {
+      "id": 824375,
+      "date": "2026-04-08",
+      "opponent": "Colorado Rockies",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 5
+    },
+    {
+      "id": 824374,
+      "date": "2026-04-08",
+      "opponent": "Colorado Rockies",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 9
+    },
+    {
+      "id": 823156,
+      "date": "2026-04-11",
+      "opponent": "Seattle Mariners",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 9
+    },
+    {
+      "id": 823155,
+      "date": "2026-04-12",
+      "opponent": "Seattle Mariners",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 8
+    },
+    {
+      "id": 823154,
+      "date": "2026-04-12",
+      "opponent": "Seattle Mariners",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 6
+    },
+    {
+      "id": 823153,
+      "date": "2026-04-13",
+      "opponent": "Seattle Mariners",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 6
+    },
+    {
+      "id": 824210,
+      "date": "2026-04-15",
+      "opponent": "Colorado Rockies",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 6
+    },
+    {
+      "id": 824209,
+      "date": "2026-04-16",
+      "opponent": "Colorado Rockies",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 1
+    },
+    {
+      "id": 824208,
+      "date": "2026-04-17",
+      "opponent": "Colorado Rockies",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 3
+    },
+    {
+      "id": 824207,
+      "date": "2026-04-18",
+      "opponent": "St. Louis Cardinals",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 9
+    },
+    {
+      "id": 824206,
+      "date": "2026-04-18",
+      "opponent": "St. Louis Cardinals",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 7
+    },
+    {
+      "id": 824205,
+      "date": "2026-04-19",
+      "opponent": "St. Louis Cardinals",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 7
+    },
+    {
+      "id": 824450,
+      "date": "2026-04-20",
+      "opponent": "Cleveland Guardians",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 9,
+      "opponentScore": 2
+    },
+    {
+      "id": 824448,
+      "date": "2026-04-21",
+      "opponent": "Cleveland Guardians",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 8
+    },
+    {
+      "id": 824449,
+      "date": "2026-04-22",
+      "opponent": "Cleveland Guardians",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 0
+    },
+    {
+      "id": 824204,
+      "date": "2026-04-25",
       "opponent": "New York Yankees",
       "homeAway": "home",
-      "status": "試合終了",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 12
+    },
+    {
+      "id": 824203,
+      "date": "2026-04-25",
+      "opponent": "New York Yankees",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 8
+    },
+    {
+      "id": 824202,
+      "date": "2026-04-26",
+      "opponent": "New York Yankees",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 4
+    },
+    {
+      "id": 824849,
+      "date": "2026-04-28",
+      "opponent": "Baltimore Orioles",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 5
+    },
+    {
+      "id": 824850,
+      "date": "2026-04-29",
+      "opponent": "Baltimore Orioles",
+      "homeAway": "away",
+      "status": "Postponed",
+      "astrosScore": null,
+      "opponentScore": null
+    },
+    {
+      "id": 824848,
+      "date": "2026-04-30",
+      "opponent": "Baltimore Orioles",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 10
+    },
+    {
+      "id": 824850,
+      "date": "2026-04-30",
+      "opponent": "Baltimore Orioles",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 11,
+      "opponentScore": 5
+    },
+    {
+      "id": 824772,
+      "date": "2026-05-01",
+      "opponent": "Boston Red Sox",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 3
+    },
+    {
+      "id": 824771,
+      "date": "2026-05-02",
+      "opponent": "Boston Red Sox",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 3
+    },
+    {
+      "id": 824769,
+      "date": "2026-05-03",
+      "opponent": "Boston Red Sox",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 1
+    },
+    {
+      "id": 824201,
+      "date": "2026-05-05",
+      "opponent": "Los Angeles Dodgers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 8
+    },
+    {
+      "id": 824200,
+      "date": "2026-05-06",
+      "opponent": "Los Angeles Dodgers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 1
+    },
+    {
+      "id": 824198,
+      "date": "2026-05-06",
+      "opponent": "Los Angeles Dodgers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 12
+    },
+    {
+      "id": 824522,
+      "date": "2026-05-08",
+      "opponent": "Cincinnati Reds",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 10,
+      "opponentScore": 0
+    },
+    {
+      "id": 824523,
+      "date": "2026-05-09",
+      "opponent": "Cincinnati Reds",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 3
+    },
+    {
+      "id": 824520,
+      "date": "2026-05-10",
+      "opponent": "Cincinnati Reds",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 0,
+      "opponentScore": 5
+    },
+    {
+      "id": 824199,
+      "date": "2026-05-12",
+      "opponent": "Seattle Mariners",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 3
+    },
+    {
+      "id": 824197,
+      "date": "2026-05-13",
+      "opponent": "Seattle Mariners",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 10
+    },
+    {
+      "id": 824195,
+      "date": "2026-05-14",
+      "opponent": "Seattle Mariners",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 3
+    },
+    {
+      "id": 824196,
+      "date": "2026-05-14",
+      "opponent": "Seattle Mariners",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 8
+    },
+    {
+      "id": 824194,
+      "date": "2026-05-16",
+      "opponent": "Texas Rangers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 0
+    },
+    {
+      "id": 824193,
+      "date": "2026-05-16",
+      "opponent": "Texas Rangers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 1
+    },
+    {
+      "id": 824192,
+      "date": "2026-05-17",
+      "opponent": "Texas Rangers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 0,
+      "opponentScore": 8
+    },
+    {
+      "id": 823705,
+      "date": "2026-05-18",
+      "opponent": "Minnesota Twins",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 6
+    },
+    {
+      "id": 823704,
+      "date": "2026-05-19",
+      "opponent": "Minnesota Twins",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 1
+    },
+    {
+      "id": 823703,
+      "date": "2026-05-20",
+      "opponent": "Minnesota Twins",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 4
+    },
+    {
+      "id": 824679,
+      "date": "2026-05-22",
+      "opponent": "Chicago Cubs",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 2
+    },
+    {
+      "id": 824674,
+      "date": "2026-05-23",
+      "opponent": "Chicago Cubs",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 0
+    },
+    {
+      "id": 824676,
+      "date": "2026-05-24",
+      "opponent": "Chicago Cubs",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 8,
+      "opponentScore": 5
+    },
+    {
+      "id": 822899,
+      "date": "2026-05-25",
+      "opponent": "Texas Rangers",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 9,
+      "opponentScore": 0
+    },
+    {
+      "id": 822898,
+      "date": "2026-05-27",
+      "opponent": "Texas Rangers",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 10
+    },
+    {
+      "id": 822897,
+      "date": "2026-05-28",
+      "opponent": "Texas Rangers",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 3
+    },
+    {
+      "id": 822896,
+      "date": "2026-05-29",
+      "opponent": "Texas Rangers",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 1
+    },
+    {
+      "id": 824191,
+      "date": "2026-05-30",
+      "opponent": "Milwaukee Brewers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 5
+    },
+    {
+      "id": 824190,
+      "date": "2026-05-30",
+      "opponent": "Milwaukee Brewers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 9,
+      "opponentScore": 2
+    },
+    {
+      "id": 824187,
+      "date": "2026-05-31",
+      "opponent": "Milwaukee Brewers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 0,
+      "opponentScore": 2
+    },
+    {
+      "id": 824189,
+      "date": "2026-06-03",
+      "opponent": "Pittsburgh Pirates",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 10
+    },
+    {
+      "id": 824188,
+      "date": "2026-06-04",
+      "opponent": "Pittsburgh Pirates",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 11,
+      "opponentScore": 9
+    },
+    {
+      "id": 824185,
+      "date": "2026-06-05",
+      "opponent": "Pittsburgh Pirates",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 5
+    },
+    {
+      "id": 824186,
+      "date": "2026-06-06",
+      "opponent": "Athletics",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 1
+    },
+    {
+      "id": 824184,
+      "date": "2026-06-06",
+      "opponent": "Athletics",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 13,
+      "opponentScore": 2
+    },
+    {
+      "id": 824183,
+      "date": "2026-06-07",
+      "opponent": "Athletics",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 0,
+      "opponentScore": 5
+    },
+    {
+      "id": 824025,
+      "date": "2026-06-09",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 4
+    },
+    {
+      "id": 824023,
+      "date": "2026-06-10",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 10
+    },
+    {
+      "id": 824022,
+      "date": "2026-06-11",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 3
+    },
+    {
+      "id": 824102,
+      "date": "2026-06-13",
+      "opponent": "Kansas City Royals",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 10,
+      "opponentScore": 8
+    },
+    {
+      "id": 824100,
+      "date": "2026-06-13",
+      "opponent": "Kansas City Royals",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 8,
+      "opponentScore": 7
+    },
+    {
+      "id": 824099,
+      "date": "2026-06-14",
+      "opponent": "Kansas City Royals",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 0,
+      "opponentScore": 4
+    },
+    {
+      "id": 824181,
+      "date": "2026-06-16",
+      "opponent": "Detroit Tigers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 9
+    },
+    {
+      "id": 824182,
+      "date": "2026-06-17",
+      "opponent": "Detroit Tigers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 2
+    },
+    {
+      "id": 824178,
+      "date": "2026-06-17",
+      "opponent": "Detroit Tigers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 2
+    },
+    {
+      "id": 824179,
+      "date": "2026-06-20",
+      "opponent": "Cleveland Guardians",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 9,
+      "opponentScore": 3
+    },
+    {
+      "id": 824180,
+      "date": "2026-06-20",
+      "opponent": "Cleveland Guardians",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 8
+    },
+    {
+      "id": 824177,
+      "date": "2026-06-21",
+      "opponent": "Cleveland Guardians",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 1
+    },
+    {
+      "id": 822800,
+      "date": "2026-06-22",
+      "opponent": "Toronto Blue Jays",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 4
+    },
+    {
+      "id": 822799,
+      "date": "2026-06-23",
+      "opponent": "Toronto Blue Jays",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 9,
+      "opponentScore": 7
+    },
+    {
+      "id": 822798,
+      "date": "2026-06-24",
+      "opponent": "Toronto Blue Jays",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 1
+    },
+    {
+      "id": 824258,
+      "date": "2026-06-25",
+      "opponent": "Detroit Tigers",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 1
+    },
+    {
+      "id": 824255,
+      "date": "2026-06-26",
+      "opponent": "Detroit Tigers",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 0,
+      "opponentScore": 8
+    },
+    {
+      "id": 824257,
+      "date": "2026-06-27",
+      "opponent": "Detroit Tigers",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 8,
+      "opponentScore": 6
+    },
+    {
+      "id": 824256,
+      "date": "2026-06-28",
+      "opponent": "Detroit Tigers",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 5
+    },
+    {
+      "id": 824176,
+      "date": "2026-06-30",
+      "opponent": "Minnesota Twins",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 5
+    },
+    {
+      "id": 824175,
+      "date": "2026-07-01",
+      "opponent": "Minnesota Twins",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 4
+    },
+    {
+      "id": 824174,
+      "date": "2026-07-02",
+      "opponent": "Minnesota Twins",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 8
+    },
+    {
+      "id": 824173,
+      "date": "2026-07-04",
+      "opponent": "Tampa Bay Rays",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 3
+    },
+    {
+      "id": 824171,
+      "date": "2026-07-04",
+      "opponent": "Tampa Bay Rays",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 10,
+      "opponentScore": 8
+    },
+    {
+      "id": 824172,
+      "date": "2026-07-05",
+      "opponent": "Tampa Bay Rays",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 0
+    },
+    {
+      "id": 822712,
+      "date": "2026-07-06",
+      "opponent": "Washington Nationals",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 11,
+      "opponentScore": 12
+    },
+    {
+      "id": 822713,
+      "date": "2026-07-07",
+      "opponent": "Washington Nationals",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 3
+    },
+    {
+      "id": 822710,
+      "date": "2026-07-08",
+      "opponent": "Washington Nationals",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 8
+    },
+    {
+      "id": 822878,
+      "date": "2026-07-11",
+      "opponent": "Texas Rangers",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 7
+    },
+    {
+      "id": 822875,
+      "date": "2026-07-11",
+      "opponent": "Texas Rangers",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 9,
+      "opponentScore": 3
+    },
+    {
+      "id": 822876,
+      "date": "2026-07-12",
+      "opponent": "Texas Rangers",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 6
+    },
+    {
+      "id": 824170,
+      "date": "2026-07-18",
+      "opponent": "Baltimore Orioles",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 3
+    },
+    {
+      "id": 824169,
+      "date": "2026-07-18",
+      "opponent": "Baltimore Orioles",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 4
+    },
+    {
+      "id": 824168,
+      "date": "2026-07-19",
+      "opponent": "Baltimore Orioles",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 5
+    },
+    {
+      "id": 824167,
+      "date": "2026-07-21",
+      "opponent": "Miami Marlins",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 8,
+      "opponentScore": 5
+    },
+    {
+      "id": 824165,
+      "date": "2026-07-22",
+      "opponent": "Miami Marlins",
+      "homeAway": "home",
+      "status": "Final",
       "astrosScore": 5,
       "opponentScore": 3
     },
     {
-      "date": "2026-11-02",
+      "id": 824166,
+      "date": "2026-07-23",
+      "opponent": "Miami Marlins",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 2
+    },
+    {
+      "id": 824573,
+      "date": "2026-07-24",
+      "opponent": "Chicago White Sox",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 9,
+      "opponentScore": 5
+    },
+    {
+      "id": 824571,
+      "date": "2026-07-25",
+      "opponent": "Chicago White Sox",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 1
+    },
+    {
+      "id": 824572,
+      "date": "2026-07-26",
+      "opponent": "Chicago White Sox",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 12
+    },
+    {
+      "id": 824001,
+      "date": "2026-07-28",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 4
+    },
+    {
+      "id": 824003,
+      "date": "2026-07-29",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 2
+    },
+    {
+      "id": 824002,
+      "date": "2026-07-30",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 4
+    },
+    {
+      "id": 824164,
+      "date": "2026-08-01",
+      "opponent": "Texas Rangers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 11,
+      "opponentScore": 2
+    },
+    {
+      "id": 824162,
+      "date": "2026-08-01",
+      "opponent": "Texas Rangers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 4
+    },
+    {
+      "id": 824163,
+      "date": "2026-08-02",
+      "opponent": "Texas Rangers",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 3
+    },
+    {
+      "id": 824160,
+      "date": "2026-08-04",
+      "opponent": "Toronto Blue Jays",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 3
+    },
+    {
+      "id": 824161,
+      "date": "2026-08-05",
+      "opponent": "Toronto Blue Jays",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 2
+    },
+    {
+      "id": 824158,
+      "date": "2026-08-05",
+      "opponent": "Toronto Blue Jays",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 5
+    },
+    {
+      "id": 823266,
+      "date": "2026-08-08",
+      "opponent": "San Diego Padres",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 3
+    },
+    {
+      "id": 823267,
+      "date": "2026-08-08",
+      "opponent": "San Diego Padres",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 3
+    },
+    {
+      "id": 823268,
+      "date": "2026-08-10",
+      "opponent": "San Diego Padres",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 7
+    },
+    {
+      "id": 823189,
+      "date": "2026-08-11",
+      "opponent": "San Francisco Giants",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 3
+    },
+    {
+      "id": 823186,
+      "date": "2026-08-12",
+      "opponent": "San Francisco Giants",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 4
+    },
+    {
+      "id": 823187,
+      "date": "2026-08-12",
+      "opponent": "San Francisco Giants",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 1
+    },
+    {
+      "id": 824159,
+      "date": "2026-08-15",
+      "opponent": "Seattle Mariners",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 10,
+      "opponentScore": 7
+    },
+    {
+      "id": 824157,
+      "date": "2026-08-15",
+      "opponent": "Seattle Mariners",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 10
+    },
+    {
+      "id": 824156,
+      "date": "2026-08-16",
+      "opponent": "Seattle Mariners",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 3
+    },
+    {
+      "id": 824154,
+      "date": "2026-08-19",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 3
+    },
+    {
+      "id": 824155,
+      "date": "2026-08-20",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 2
+    },
+    {
+      "id": 824153,
+      "date": "2026-08-21",
+      "opponent": "Los Angeles Angels",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 18
+    },
+    {
+      "id": 824152,
+      "date": "2026-08-22",
+      "opponent": "Athletics",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 0
+    },
+    {
+      "id": 824151,
+      "date": "2026-08-22",
+      "opponent": "Athletics",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 4
+    },
+    {
+      "id": 824150,
+      "date": "2026-08-23",
+      "opponent": "Athletics",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 7
+    },
+    {
+      "id": 823505,
+      "date": "2026-08-25",
+      "opponent": "New York Yankees",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 9,
+      "opponentScore": 7
+    },
+    {
+      "id": 823506,
+      "date": "2026-08-26",
+      "opponent": "New York Yankees",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 9
+    },
+    {
+      "id": 823503,
+      "date": "2026-08-27",
+      "opponent": "New York Yankees",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 1
+    },
+    {
+      "id": 823583,
+      "date": "2026-08-28",
+      "opponent": "New York Mets",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 1
+    },
+    {
+      "id": 823582,
+      "date": "2026-08-29",
+      "opponent": "New York Mets",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 6
+    },
+    {
+      "id": 823580,
+      "date": "2026-08-30",
+      "opponent": "New York Mets",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 3
+    },
+    {
+      "id": 824149,
+      "date": "2026-09-01",
+      "opponent": "Chicago White Sox",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 3
+    },
+    {
+      "id": 824148,
+      "date": "2026-09-02",
+      "opponent": "Chicago White Sox",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 5
+    },
+    {
+      "id": 824147,
+      "date": "2026-09-03",
+      "opponent": "Chicago White Sox",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 0
+    },
+    {
+      "id": 824144,
+      "date": "2026-09-03",
+      "opponent": "Chicago White Sox",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 2
+    },
+    {
+      "id": 824146,
+      "date": "2026-09-05",
+      "opponent": "Arizona Diamondbacks",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 1
+    },
+    {
+      "id": 824145,
+      "date": "2026-09-05",
+      "opponent": "Arizona Diamondbacks",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 4
+    },
+    {
+      "id": 824142,
+      "date": "2026-09-06",
+      "opponent": "Arizona Diamondbacks",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 3
+    },
+    {
+      "id": 823414,
+      "date": "2026-09-08",
+      "opponent": "Philadelphia Phillies",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 5
+    },
+    {
+      "id": 823416,
+      "date": "2026-09-09",
+      "opponent": "Philadelphia Phillies",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 11
+    },
+    {
+      "id": 823413,
+      "date": "2026-09-10",
+      "opponent": "Philadelphia Phillies",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 1
+    },
+    {
+      "id": 822930,
+      "date": "2026-09-11",
+      "opponent": "Tampa Bay Rays",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 1,
+      "opponentScore": 3
+    },
+    {
+      "id": 822927,
+      "date": "2026-09-12",
+      "opponent": "Tampa Bay Rays",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 3
+    },
+    {
+      "id": 822928,
+      "date": "2026-09-13",
+      "opponent": "Tampa Bay Rays",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 14
+    },
+    {
+      "id": 824143,
+      "date": "2026-09-16",
+      "opponent": "Kansas City Royals",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 4,
+      "opponentScore": 2
+    },
+    {
+      "id": 824140,
+      "date": "2026-09-17",
+      "opponent": "Kansas City Royals",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 5
+    },
+    {
+      "id": 824141,
+      "date": "2026-09-17",
+      "opponent": "Kansas City Royals",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 6,
+      "opponentScore": 2
+    },
+    {
+      "id": 824138,
+      "date": "2026-09-19",
+      "opponent": "Atlanta Braves",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 6
+    },
+    {
+      "id": 824137,
+      "date": "2026-09-19",
+      "opponent": "Atlanta Braves",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 6
+    },
+    {
+      "id": 824139,
+      "date": "2026-09-20",
+      "opponent": "Atlanta Braves",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 2,
+      "opponentScore": 4
+    },
+    {
+      "id": 823089,
+      "date": "2026-09-23",
       "opponent": "Seattle Mariners",
       "homeAway": "away",
-      "status": "試合前",
-      "astrosScore": null,
-      "opponentScore": null
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 0
+    },
+    {
+      "id": 823086,
+      "date": "2026-09-24",
+      "opponent": "Seattle Mariners",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 6
+    },
+    {
+      "id": 824950,
+      "date": "2026-09-25",
+      "opponent": "Athletics",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 7,
+      "opponentScore": 5
+    },
+    {
+      "id": 824947,
+      "date": "2026-09-26",
+      "opponent": "Athletics",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 5,
+      "opponentScore": 6
+    },
+    {
+      "id": 824949,
+      "date": "2026-09-27",
+      "opponent": "Athletics",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 13,
+      "opponentScore": 2
+    },
+    {
+      "id": 824948,
+      "date": "2026-09-27",
+      "opponent": "Athletics",
+      "homeAway": "away",
+      "status": "Final",
+      "astrosScore": 9,
+      "opponentScore": 0
+    },
+    {
+      "id": 849849,
+      "date": "2026-09-29",
+      "opponent": "Chicago White Sox",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 6
+    },
+    {
+      "id": 849846,
+      "date": "2026-09-30",
+      "opponent": "Chicago White Sox",
+      "homeAway": "home",
+      "status": "Final",
+      "astrosScore": 3,
+      "opponentScore": 7
     }
   ]
 }
